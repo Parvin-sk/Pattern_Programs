@@ -1,0 +1,24 @@
+This Java code uses nested for loops to print a square of asterisks with a side length defined by the variable n. The outer loop controls the number of rows, while the inner loop prints the asterisks for each row.
+
+PATTERN:
+****
+****
+****
+****
+
+PROGRAMM:
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=4;
+       for(int i=0;i<n;i++){
+           for( int j=0;j<n;j++){
+               System.out.print("*");
+           }
+           System.out.println();
+       }
+    }
+}
+
+
