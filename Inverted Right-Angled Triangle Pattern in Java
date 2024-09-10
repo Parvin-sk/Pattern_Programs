@@ -1,0 +1,25 @@
+This Java program generates an inverted right-angled triangle pattern of asterisks (*). The pattern size is determined by the user input, and the code utilizes nested loops to efficiently generate the pattern.
+
+PATTERN:
+
+*****
+****
+***
+**
+*
+
+PROGRAMM:
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=n;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
